@@ -9,6 +9,8 @@
 
     "Congratulation, you win a failpoint."
 
+License GPLv2
+
 ]]--
 
 -- The FailPoint mod by Mg.
@@ -18,7 +20,7 @@ data = {}
 
 data.fp_file = minetest.get_worldpath().."/failpoints"
 data.failpoints = {}
-data.fp_version = 0.1
+data.fp_version = 0.2
 
 -- fp_create priv to create failpoints
 minetest.register_privilege("fp_create","Is able to create FailPoints and give them to anybody else")
